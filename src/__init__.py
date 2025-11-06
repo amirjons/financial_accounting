@@ -1,5 +1,7 @@
 """
-Модуль учета финансов
+Консольное приложение
 """
 
-__version__ = "1.0.0"
+from .financial_app import FinancialAccountingApp
+
+__all__ = ['FinancialAccountingApp']
