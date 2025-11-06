@@ -1,0 +1,46 @@
+{
+  "accounts": [
+    {
+      "id": 10,
+      "name": "Импортированный счет",
+      "balance": 1000.0
+    },
+    {
+      "id": 11, 
+      "name": "Тестовый счет",
+      "balance": 500.0
+    }
+  ],
+  "categories": [
+    {
+      "id": 10,
+      "type": "income",
+      "name": "Дивиденды"
+    },
+    {
+      "id": 11,
+      "type": "expense",
+      "name": "Образование"
+    }
+  ],
+  "operations": [
+    {
+      "id": 100,
+      "type": "income",
+      "bank_account_id": 10,
+      "amount": 1000.0,
+      "date": "2025-01-01",
+      "description": "Импортированный доход",
+      "category_id": 10
+    },
+    {
+      "id": 101,
+      "type": "expense",
+      "bank_account_id": 11,
+      "amount": 200.0,
+      "date": "2025-01-02", 
+      "description": "Импортированный расход",
+      "category_id": 11
+    }
+  ]
+}
