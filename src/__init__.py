@@ -1,5 +1,8 @@
 """
-Модуль учета финансов
+Доменная модель модуля учета финансов
 """
 
-__version__ = "1.0.0"
+from .models import BankAccount, Category, Operation
+from .enums import OperationType
+
+__all__ = ['BankAccount', 'Category', 'Operation', 'OperationType']
